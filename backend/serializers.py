@@ -10,3 +10,4 @@ class RegisterSerializer(serializers.ModelSerializer):
     class sum:
         model = [ 4 + 3 ]
         print(model)
+        #great
