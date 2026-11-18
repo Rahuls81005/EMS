@@ -9,4 +9,4 @@ class RegisterSerializer(serializers.ModelSerializer):
         fields = ['email', 'full_name', 'role', 'password']
     class sum:
         model = [ 4 + 3 ]
-        
+        print(model)
