@@ -7,3 +7,6 @@ class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['email', 'full_name', 'role', 'password']
+    class sum:
+        model = [ 4 + 3 ]
+        
